@@ -83,4 +83,16 @@ public class util {
             s = "нi";
         return leftString(s, l);
     }
+    static String letString(boolean b, int l)
+    // Аргументи: b - логiчне значення, яке представляється
+    // l - потрiбна довжина рядка
+    {
+        String s = null;
+        if (b)
+            s = "так";
+        else
+            s = "нi";
+        return leftString(s, l);
+    }
+}
 }
